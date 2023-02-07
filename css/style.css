@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.tabs-section{
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabs-section .mein-tabs{
+    width: 100%;
+    max-width: 1000px;
+    border: 2px solid rebeccapurple;
+}
+
+.tabs-section .mein-tabs .controler{
+    width: 100%;
+}
+
+.tabs-section .mein-tabs .btn{  
+    padding: 10px 25px;
+    margin: 10px;
+    margin-bottom: 0; 
+    border: 0;
+   
+ }
+
+
+.tabs-section .mein-tabs .content{   
+    width: 95%;
+    margin-left:10px;
+} 
+
+
+.tabs-section .mein-tabs .content .tabs{
+    margin: 20px 0;     
+    color: #fff;
+    padding:25px 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    display: none;
+    height: 200px;
+    background-color: yellowgreen;
+    color: #fff; 
+    margin-top: 0px;
+   
+}
+
+/* .tabs-section .mein-tabs .content .tabs1{
+    background-color: blueviolet;
+}
+
+.tabs-section .mein-tabs .content .tabs2{
+    background-color: orange;
+}
+
+.tabs-section .mein-tabs .content .tabs3{
+    background-color: orangered;
+} */
+
+.active{
+    display: block !important; 
+    transition: all 0.5s linear;
+}
+
+.active-btn{
+    background-color: yellowgreen;
+    color: #fff; 
+}
+
+/* .active-block{ 
+    display: block !important;
+} */
